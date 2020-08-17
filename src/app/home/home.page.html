@@ -1,0 +1,61 @@
+<ion-header >
+  <ion-toolbar>
+    <ion-title>
+    <h1>Tres En Raya</h1> 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <table>
+    <ion-grid class="board">
+    <div align="center">
+  <ion-row>
+    <ion-col>
+        <button  id="1" class="button button-large button-positive" (click)="placeTile('1')"></button>
+    </ion-col>
+    <ion-col>
+        <button id="2" class="button button-large button-positive" (click)="placeTile('2')"></button>
+    </ion-col>
+    <ion-col>
+        <button id="4" class="button button-large button-positive" (click)="placeTile('4')"></button>
+    </ion-col>
+</ion-row>
+</div>
+<div align="center">
+<ion-row>
+    <ion-col>
+        <button id="8" class="button button-large button-positive" (click)="placeTile('8')"></button>
+    </ion-col>
+    <ion-col>
+        <button id="16" class="button button-large button-positive" (click)="placeTile('16')"></button>
+    </ion-col>
+    <ion-col>
+        <button id="32" class="button button-large button-positive" (click)="placeTile('32')"></button>
+    </ion-col>
+</ion-row>
+</div>
+<div align="center">
+<ion-row>
+    <ion-col>
+        <button id="64" class="button button-large button-positive" (click)="placeTile('64')"></button>
+    </ion-col>
+    <ion-col>
+        <button class="button button-large button-positive" id="128" (click)="placeTile('128')"></button>
+    </ion-col>
+    <ion-col>
+        <button class="button button-large button-positive" id="256" (click)="placeTile('256')"></button>
+    </ion-col>
+</ion-row>
+</div>
+</ion-grid>
+</table>
+
+<div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1024px-Tic_tac_toe.svg.png">
+</div>
+
+  
+</ion-content>
+
+
